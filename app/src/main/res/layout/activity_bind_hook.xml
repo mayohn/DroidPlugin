@@ -12,26 +12,22 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/dynamic_agent"
+            android:id="@+id/copy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="center"
             android:padding="10dp"
-            android:text="动态代理"
+            android:text="copy"
+            android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
 
-        <Button
-            android:id="@+id/bind_hook"
+        <TextView
+            android:id="@+id/info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="绑定hook"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp" />
+            android:layout_marginTop="30dp" />
     </LinearLayout>
 
 </ScrollView>

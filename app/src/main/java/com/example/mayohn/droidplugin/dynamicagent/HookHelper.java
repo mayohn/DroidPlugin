@@ -2,13 +2,14 @@ package com.example.mayohn.droidplugin.dynamicagent;
 
 import android.app.Activity;
 import android.app.Instrumentation;
+import android.os.IBinder;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class HookHelper {
     /**
-     * 代理getApplicationContext:contextImpl中的execStartActivity
+     * 代理getApplicationContext:contextImpl中的execStartActivity，可以放到attachBaseContext方法中
      *
      * @throws Exception
      */
@@ -32,6 +33,12 @@ public class HookHelper {
             e.printStackTrace();
         }
     }
+
+    /**
+     * activity.startActivity hook,需要放到onCreate方法里面
+     * @param activity
+     * @throws Exception
+     */
     public static void onCreate(Activity activity) throws Exception{
         // 先获取到当前的ActivityThread对象
         Class<?> activityClass = Class.forName("android.app.Activity");
@@ -46,4 +53,6 @@ public class HookHelper {
         // 偷梁换柱
         mInstrumentationField.set(activity, evilInstrumentation);
     }
+
+
 }

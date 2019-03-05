@@ -6,17 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.mayohn.droidplugin.bindhook.BindHookActivity;
 import com.example.mayohn.droidplugin.dynamicagent.DynamicAgentActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button dynamic_agent;
+    private Button bind_hook;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         dynamic_agent = (Button) findViewById(R.id.dynamic_agent);
+        bind_hook = (Button) findViewById(R.id.bind_hook);
         dynamic_agent.setOnClickListener(this);
+        bind_hook.setOnClickListener(this);
     }
 
     @Override
@@ -25,6 +29,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.dynamic_agent:
                 Intent intent = new Intent(MainActivity.this, DynamicAgentActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.bind_hook:
+                Intent intent1 = new Intent(MainActivity.this, BindHookActivity.class);
+                startActivity(intent1);
                 break;
         }
     }

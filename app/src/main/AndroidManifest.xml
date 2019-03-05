@@ -16,10 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".dynamicagent.DynamicAgentActivity"
-            android:label="@string/title_activity_dynamic_agent"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".dynamicagent.DynamicAgentActivity"></activity>
+        <activity android:name=".bindhook.BindHookActivity" />
     </application>
 
 </manifest>
