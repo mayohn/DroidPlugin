@@ -18,7 +18,7 @@
             android:layout_marginTop="20dp"
             android:gravity="center"
             android:padding="10dp"
-            android:text="动态代理"
+            android:text="dynamicagent"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
 
@@ -29,7 +29,18 @@
             android:layout_marginTop="20dp"
             android:gravity="center"
             android:padding="10dp"
-            android:text="绑定hook"
+            android:text="binder hook"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ams_hook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="AMS hook"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
     </LinearLayout>
