@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\build\\intermediates\\res\\merged\\release\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "27,31",
+                        "startColumns": "4,4",
+                        "startOffsets": "880,1064",
+                        "endLines": "29,33",
+                        "endColumns": "12,12",
+                        "endOffsets": "1058,1243"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,237",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "232,415"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "27,31",
+                        "startColumns": "4,4",
+                        "startOffsets": "880,1064",
+                        "endLines": "29,33",
+                        "endColumns": "12,12",
+                        "endOffsets": "1058,1243"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,237",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "232,415"
+                    }
+                }
+            ]
+        }
+    ]
+}

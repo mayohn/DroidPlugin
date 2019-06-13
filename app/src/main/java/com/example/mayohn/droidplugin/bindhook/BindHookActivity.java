@@ -32,7 +32,7 @@ public class BindHookActivity extends Activity {
         setContentView(R.layout.activity_bind_hook);
         copy = (Button) findViewById(R.id.copy);
         info = (TextView) findViewById(R.id.info);
-        hookClipboard();
+//        hookClipboard();
         final ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
         ClipData setClip = ClipData.newPlainText("test", "test clipmanager");
         clipboardManager.setPrimaryClip(setClip);

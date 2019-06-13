@@ -1,0 +1,86 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "28,25,26,27",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1042,878,936,989",
+                        "endColumns": "70,57,52,52",
+                        "endOffsets": "1108,931,984,1037"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,184,237",
+                        "endColumns": "70,57,52,52",
+                        "endOffsets": "121,179,232,285"
+                    }
+                },
+                {
+                    "source": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "25,29",
+                        "startColumns": "4,4",
+                        "startOffsets": "878,1056",
+                        "endLines": "27,31",
+                        "endColumns": "12,12",
+                        "endOffsets": "1050,1224"
+                    },
+                    "to": {
+                        "startLines": "6,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "290,466",
+                        "endLines": "8,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "461,633"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "28,25,26,27",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1042,878,936,989",
+                        "endColumns": "70,57,52,52",
+                        "endOffsets": "1108,931,984,1037"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,184,237",
+                        "endColumns": "70,57,52,52",
+                        "endOffsets": "121,179,232,285"
+                    }
+                },
+                {
+                    "source": "D:\\Andorid\\wordspace\\DroidPlugin\\DroidPlugin\\DroidPlugin\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "25,29",
+                        "startColumns": "4,4",
+                        "startOffsets": "878,1056",
+                        "endLines": "27,31",
+                        "endColumns": "12,12",
+                        "endOffsets": "1050,1224"
+                    },
+                    "to": {
+                        "startLines": "6,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "290,466",
+                        "endLines": "8,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "461,633"
+                    }
+                }
+            ]
+        }
+    ]
+}
